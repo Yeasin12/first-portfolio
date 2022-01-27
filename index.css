@@ -1,0 +1,213 @@
+body{
+          margin: 0;
+          padding: 0;
+          font-family: 'Poppins', sans-serif;
+      }
+      .stay{
+      
+          color: black;
+          
+          
+      }
+      .logo img{
+          height: 85px;
+          padding-left: 55px;
+          margin-top: 10px;
+          
+      }
+      section{
+          height: 500px;
+          
+      }
+      h1{
+          font-size: 50px;
+          margin-left: 10px;
+      }
+      h2{
+          font-size: 40px;
+      }
+      h3{
+          font-size: 30px;
+      }
+      .top-banner{
+          background-image: url(images/top-banner.png);
+          background-repeat: no-repeat;
+      
+      }
+      .half-width{
+          width: 40%;
+          float: left;
+          margin-left: 5%;
+          padding-left: 2%;
+          
+          
+      }
+       P{
+          margin-bottom: 30px;
+          margin-top: 30px;
+      }
+      
+      .half-width img{
+          width: 70%;
+      }
+      span{
+          color: orange;
+      }
+      #side-color{
+          border-left: 4px solid;
+          color: #FF6666;
+          border-image-slice: 1;
+      }
+      .button{
+          text-decoration: none;
+          padding: 10px 40px;
+          font-weight: 700;
+          color: white;
+          background-color:#FF6666 ;
+          border-radius: 5px;
+          margin top: 50px; ;
+      }
+      
+      .section-two{
+          text-align: center;
+      }
+      
+      .mission{
+          width: 300px;
+          height: 450px;
+          box-shadow: 5px 7px 40px gray; 
+          border-radius: 5px;
+          border-radius: 5px;
+      }
+      .div-image img{
+          width: 60%;
+      }
+      .total-division{
+          display: flex;
+          justify-content: space-around;
+          padding: 50px;
+      }
+      .para{
+          padding: 15px;
+      }
+      .paragraph{
+          padding-left: 10px;
+      }
+      #mission{
+          background-color: #FFFFFF;
+      }
+      #vision{
+          background-color:#FFFFFF ;
+      }
+      #goals{
+          background-color: #FFFFCC;
+      }
+      
+      .develop{
+          display: flex;
+          background-image: url(images/dream-bg.png);
+          background-repeat: no-repeat;
+          background-position: left;
+          margin-top: 100px;
+      }
+      
+      
+      
+      .develop-img img{
+          width: 70%;
+          margin-left: 17%;
+          padding: -50px;
+          
+      }
+      #dev-img{
+          
+          padding-bottom: 40px;
+      
+      }
+      
+      .develop-one{
+          display: flex;
+          background-image: url(images/shapes/shape-1.png);
+          background-position: bottom right;
+          background-size: 100px;
+          
+          background-repeat: no-repeat;
+          margin-top: 100px;
+          
+      }
+      
+      .coding-one{
+          margin-left: 100px;
+      }
+      .our{
+          text-align: center;
+          margin-top: 100px;
+      }
+      
+      html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 25%;
+          margin-bottom: 16px;
+          margin-left: 6%;
+          padding: 0 8px;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button1 {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: orange;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+      
+        .footer{
+      
+          margin-top: 50px;
+          display: flex;
+          text-align: center;
+          color: white;
+          background-color: black;
+          padding: 30px;
+      
+        }
